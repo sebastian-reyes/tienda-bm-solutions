@@ -1,10 +1,12 @@
-import React from 'react'
+import React, { Fragment } from 'react'
+import Navbar from '../Components/Navbar'
 
 const Carrito = () => {
     return (
-        <div className="container col-md-7">
+        <Fragment>
+            <Navbar />
             <h1>Carrito de compras</h1>
-        </div>
+        </Fragment>
     )
 }
 

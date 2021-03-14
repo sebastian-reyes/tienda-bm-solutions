@@ -1,10 +1,12 @@
-import React from 'react'
+import React, { Fragment } from 'react'
+import Navbar from '../Components/Navbar'
 
 const Home = () => {
     return (
-        <div className="container col-md-7">
-            <h1 className="text-center">Home</h1>
-        </div>
+        <Fragment>
+            <Navbar/>
+            <h1 className="text-center mt-2">Home</h1>
+        </Fragment>
     )
 }
 
