@@ -1,5 +1,6 @@
 import React, { Fragment, useState } from 'react'
 import { Link } from 'react-router-dom'
+import  Swal  from 'sweetalert2'
 import { HiOutlineLocationMarker, HiOutlineMail, HiPhone } from 'react-icons/hi'
 import { FiUserPlus } from 'react-icons/fi'
 import { AiOutlineLogin } from 'react-icons/ai'
@@ -8,13 +9,22 @@ import { FaFacebook } from 'react-icons/fa'
 const Sesion = () => {
     const [user, setUser] = useState(true)
 
-    const registro = () => {
+    const registroInicio = () => {
         if (user == true) {
             setUser(false);
         } else {
             setUser(true);
         }
+    }
 
+    const registrar = (e) => {
+        e.preventDefault();
+        Swal.fire(
+            'Usuario registrado!',
+            'Usuario Registrado correctamente.',
+            'success'
+        );
+        setUser(true);
     }
 
     return (
@@ -24,7 +34,7 @@ const Sesion = () => {
                     <div className="sesion-info">
                         <div className="container mt-4">
                             <h2 className="text-center">BM Technology Solutions</h2>
-                            <ul className="sesion-info-lst">
+                            <ul className="sesion-info-lst ms-3">
                                 <li>
                                     <span><HiOutlineLocationMarker /></span>
                                     <span className="ms-1">lorem ipsum 431 - Lorem</span>
@@ -38,7 +48,7 @@ const Sesion = () => {
                                     <span className="ms-1">934812566</span>
                                 </li>
                             </ul>
-                            <ul className="sesion-info-lst-redes">
+                            <ul className="sesion-info-lst-redes text-center me-2">
                                 <li className="list-inline-item">
                                     <span><FaFacebook /></span>
                                 </li>
@@ -65,7 +75,7 @@ const Sesion = () => {
                                                     <label>Contraseña:</label>
                                                     <input type="text" className="form-control mb-3" placeholder="Ingrese su contraseña" />
                                                     <button className="btn btn-sesion w-100 mb-3">Iniciar Sesión <AiOutlineLogin /></button>
-                                                    <span>Aún no estás registrado? <Link to="/login" onClick={registro}>Registrate aquí</Link> </span>
+                                                    <span>Aún no estás registrado? <Link to="/login" onClick={registroInicio}>Registrate aquí</Link> </span>
                                                 </form>
                                             </div>
                                         </div>
@@ -76,7 +86,7 @@ const Sesion = () => {
                                         <h1 className="titulo-principal text-center">Registrate con nosotros</h1>
                                         <div className="formBox">
                                             <div className="container col-lg-8">
-                                                <form>
+                                                <form onSubmit={registrar}>
                                                     <div className="row mb-1">
                                                         <div className="col-lg-6">
                                                             <label>Nombres:</label>
@@ -94,7 +104,7 @@ const Sesion = () => {
                                                     <label>Contraseña:</label>
                                                     <input type="text" className="form-control mb-3" placeholder="Ingrese su contraseña" />
                                                     <button className="btn btn-sesion w-100 mb-3">Registrate <FiUserPlus /></button>
-                                                    <span>Ya tienes cuenta? <Link to="/login" onClick={registro}>Inicia Sesión</Link> </span>
+                                                    <span>Ya tienes cuenta? <Link to="/login" onClick={registroInicio}>Inicia Sesión</Link> </span>
                                                 </form>
                                             </div>
                                         </div>
