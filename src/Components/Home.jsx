@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react'
 import Navbar from '../Components/Navbar'
 import Footer from './Footer';
+import CarouselMarcas from './CarouselMarcas'
 
 const Home = () => {
     return (
@@ -37,6 +38,7 @@ const Home = () => {
                     </div>
                 </div>
             </section>
+            <CarouselMarcas />
             <Footer />
         </Fragment>
     )

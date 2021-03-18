@@ -6,7 +6,8 @@ body {
 li {
     list-style: none;
 }
-ul{
+
+ul {
     padding-left: 5px;
 }
 
@@ -88,34 +89,36 @@ ul{
     color: #000000;
 }
 
-.footer .footer_info{
+.ct-marcas{
+    height: 90px;
+}
+
+.footer .footer_info {
     margin-bottom: 30px;
 }
 
-
-.footer .footer_info p{
+.footer .footer_info p {
     margin-bottom: 20px;
     padding-right: 80px;
 }
 
-.footer .footer_logo{
+.footer .footer_logo {
     margin-bottom: 20px;
     display: block;
 }
 
-
-.footer .footer_logo a{
+.footer .footer_logo a {
     text-decoration: none;
     font-size: 25px;
     color: #000000;
 }
 
-.footer .footer_widget{
+.footer .footer_widget {
     margin-top: 15px;
     margin-bottom: 30px;
 }
 
-.footer .footer_widget h3{
+.footer .footer_widget h3 {
     font-size: 15px;
     color: #111;
     font-weight: 600;
@@ -123,15 +126,28 @@ ul{
     margin-bottom: 12px;
 }
 
-.footer .footer_widget ul li a{
+.footer .footer_widget ul li a {
     text-decoration: none;
     font-size: 14px;
     color: #666;
 }
 
+.footer_bottom {
+    background: #000000;
+    color: #ffffff;
+}
+
+.footer_bottom a{
+    color: rgb(141, 141, 141);
+}
+
 @media (max-width: 767.98px) {
     .navbar-brand {
         font-size: 15px;
+    }
+    .img-marcas{
+        width: 200px;
+        margin-top: 20px;
     }
 }
 

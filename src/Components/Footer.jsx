@@ -58,6 +58,14 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
+                <div className="footer_bottom text-center py-4">
+                    <div className="container">
+                        <p className="mb-0">
+                            Copyright &copy; 2021 BM Technology Solutions. Todos los derechos reservados.
+                            Diseñado por <a href="https://github.com/sebastian-reyes" target="_BLANK">Sebastián Reyes</a>
+                        </p>
+                    </div>
+                </div>
             </section>
         </Fragment>
     )
