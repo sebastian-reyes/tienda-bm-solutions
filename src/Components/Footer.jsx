@@ -7,32 +7,30 @@ const Footer = () => {
             <section className="footer bg-light">
                 <div className="container p-4">
                     <div className="row">
-                        <div className="col-lg-4 col-md-6 col-sm-12">
+                        <div className="col-lg-4 col-sm-12">
                             <div className="footer_info">
                                 <div className="footer_logo">
                                     <h3 to="/" className="titulo-principal mt-4">BM Technology Solutions</h3>
                                 </div>
                                 <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure adipisci quia, eaque
-                                    praesentium.
+                                    Estamos dispuestos a brindarte nuestro mejor servicio, por el bienestar de todos.
                                 </p>
                                 <div className="footer_social">
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-2 col-md-3">
+                        <div className="col-lg-2">
                             <div className="footer_widget">
-                                <h3>Quick Links</h3>
+                                <h3>Frecuentes</h3>
                                 <ul>
-                                    <li><Link to="/">About</Link></li>
-                                    <li><Link to="/">Blogs</Link></li>
-                                    <li><Link to="/">Services</Link></li>
-                                    <li><Link to="/">FAQ</Link></li>
-                                    <li><Link to="/">Contact</Link></li>
+                                    <li><Link to="/">Sobre nosotros</Link></li>
+                                    <li><Link to="/">Servicios</Link></li>
+                                    <li><Link to="/">Contacto</Link></li>
+                                    <li><Link to="/">Locales</Link></li>
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-lg-2 col-md-3">
+                        <div className="col-lg-2">
                             <div className="footer_widget">
                                 <h3>Cuenta</h3>
                                 <ul>
@@ -44,7 +42,7 @@ const Footer = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-3">
+                        <div className="col-lg-4">
                             <div className="footer_widget">
                                 <h3>Ayuda</h3>
                                 <ul>

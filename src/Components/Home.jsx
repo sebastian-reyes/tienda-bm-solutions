@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <Fragment>
             <Navbar />
-            <section className="cards_info">
+            <section className="cards_info py-4">
                 <div className="container p-4">
                     <div className="row">
                         <div className="col-md-4">

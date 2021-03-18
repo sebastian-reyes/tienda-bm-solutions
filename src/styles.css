@@ -131,6 +131,10 @@ ul {
     font-size: 14px;
     color: #666;
 }
+.footer .footer_widget ul li a:hover{
+    color: #000000;
+    font-weight: 600;
+}
 
 .footer_bottom {
     background: #000000;
