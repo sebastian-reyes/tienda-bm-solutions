@@ -17,7 +17,7 @@ const CarouselMarcas = () => {
                     <h2 className="text-center titulo-principal">Puedes encontrar estas marcas</h2>
                     <div id="carousel-marcas" className="carousel slide" data-bs-ride="carousel">
                         <div className="carousel-inner">
-                            <div className="carousel-item active">
+                            <div className="carousel-item">
                                 <div className="row p-4 mt-2 text-center">
                                     <div className="col-sm-3 ct-marcas">
                                         <img src={sony} alt="logo" className="img-marcas img-fluid" />
@@ -33,7 +33,7 @@ const CarouselMarcas = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="carousel-item">
+                            <div className="carousel-item active">
                                 <div className="row p-4 mt-2 text-center">
                                     <div className="col-sm-3 ct-marcas">
                                         <img src={nikon} alt="logo" className="img-marcas img-fluid" />
