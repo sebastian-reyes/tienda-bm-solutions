@@ -1,9 +1,10 @@
 import React, { Fragment, useEffect } from 'react'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
-import Navbar from '../Components/Navbar'
-import Footer from './Footer';
+import Navbar from '../Navbar'
+import Footer from '../Footer';
 import CarouselMarcas from './CarouselMarcas'
+import Hero from './Hero'
 
 const Home = () => {
     useEffect(() => {
@@ -13,6 +14,7 @@ const Home = () => {
     return (
         <Fragment>
             <Navbar />
+            <Hero />
             <section className="cards_info py-4">
                 <div className="container p-4">
                     <div className="row">

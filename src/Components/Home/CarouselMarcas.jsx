@@ -1,12 +1,12 @@
 import React, { Fragment } from 'react'
-import logitech from '../assets/img/marcas/logitech_logo.png'
-import razer from '../assets/img/marcas/razer_logo.png'
-import canon from '../assets/img/marcas/canon_logo.svg'
-import hyperx from '../assets/img/marcas/hyperx_logo.svg'
-import nikon from '../assets/img/marcas/nikon_logo.png'
-import corsair from '../assets/img/marcas/corsair_logo.svg'
-import sony from '../assets/img/marcas/sony_logo.png'
-import kodak from '../assets/img/marcas/kodak_logo.png'
+import logitech from '../../assets/img/marcas/logitech_logo.png'
+import razer from '../../assets/img/marcas/razer_logo.png'
+import canon from '../../assets/img/marcas/canon_logo.svg'
+import hyperx from '../../assets/img/marcas/hyperx_logo.svg'
+import nikon from '../../assets/img/marcas/nikon_logo.png'
+import corsair from '../../assets/img/marcas/corsair_logo.svg'
+import sony from '../../assets/img/marcas/sony_logo.png'
+import kodak from '../../assets/img/marcas/kodak_logo.png'
 
 const CarouselMarcas = () => {
 

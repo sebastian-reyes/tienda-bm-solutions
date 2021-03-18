@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Home from './Components/Home';
+import Home from './Components/Home/Home';
 import Carrito from './Components/Carrito';
 import Sesion from './Components/Sesion';
 
