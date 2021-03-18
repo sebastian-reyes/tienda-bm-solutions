@@ -92,6 +92,9 @@ ul {
 .hero {
     margin-top: 50px;
 }
+.carousel-hero{
+    overflow: unset;
+}
 
 .hero_producto {
     position: relative;
@@ -116,6 +119,10 @@ ul {
 
 .hero_datos-nuevo {
     display: block;
+}
+
+.cards_info{
+    background: #f8f8f8;
 }
 
 .ct-marcas {
