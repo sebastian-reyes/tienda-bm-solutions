@@ -10,7 +10,7 @@ const Footer = () => {
                         <div className="col-lg-4 col-md-6 col-sm-12">
                             <div className="footer_info">
                                 <div className="footer_logo">
-                                    <h3 to="/" className="titulo-principal mt-4">BG Technology Solutions</h3>
+                                    <h3 to="/" className="titulo-principal mt-4">BM Technology Solutions</h3>
                                 </div>
                                 <p>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure adipisci quia, eaque

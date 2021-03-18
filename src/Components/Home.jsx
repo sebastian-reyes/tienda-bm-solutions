@@ -7,30 +7,29 @@ const Home = () => {
     return (
         <Fragment>
             <Navbar />
-            <h1 className="text-center mt-2">Home</h1>
             <section className="cards_info">
                 <div className="container p-4">
                     <div className="row">
-                        <div className="col-lg-4">
+                        <div className="col-md-4">
                             <div className="card mb-3 shadow bg-body rounded">
                                 <div className="card-body">
-                                    <h5 className="titulo-principal">Card title</h5>
+                                    <h5 className="titulo-principal">Envíos a todo el Perú</h5>
                                     This is some text within a card body.
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4">
+                        <div className="col-md-4">
                             <div className="card mb-3 shadow bg-body rounded">
                                 <div className="card-body">
-                                    <h5 className="titulo-principal">Card title</h5>
+                                    <h5 className="titulo-principal">Métodos de pago seguros</h5>
                                     This is some text within a card body.
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4">
+                        <div className="col-md-4">
                             <div className="card mb-3 shadow bg-body rounded">
                                 <div className="card-body">
-                                    <h5 className="titulo-principal">Card title</h5>
+                                    <h5 className="titulo-principal">Atención al cliente 24h</h5>
                                     This is some text within a card body.
                                 </div>
                             </div>
