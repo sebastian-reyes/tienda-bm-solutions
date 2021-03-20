@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import cam from '../../assets/img/hero/Logitech-C925E-01.png'
 import teclado from '../../assets/img/hero/teclado_hyperx_alloy_fps.png'
 import mouse from '../../assets/img/hero/razer_viper_ultimate.png'
+import { GrPrevious, GrNext } from 'react-icons/gr'
 
 const Hero = () => {
     return (
@@ -66,11 +67,10 @@ const Hero = () => {
                                 </div>
                             </div>
                             <button className="carousel-control-prev" type="button" data-bs-target="#carousel-hero" data-bs-slide="prev">
-                                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span className="visually-hidden">Previous</span>
+                                <GrPrevious />
                             </button>
                             <button className="carousel-control-next" type="button" data-bs-target="#carousel-hero" data-bs-slide="next">
-                                <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                                <GrNext />
                                 <span className="visually-hidden">Next</span>
                             </button>
                         </div>

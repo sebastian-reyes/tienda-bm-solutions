@@ -118,7 +118,8 @@ ul {
 }
 
 .hero_datos-nuevo {
-    display: block;
+    font-weight: 800;
+    font-size: larger;
 }
 
 .cards_info{

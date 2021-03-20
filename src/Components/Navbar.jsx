@@ -9,7 +9,7 @@ const Navbar = () => {
             <header>
                 <nav className="navbar navbar-expand-lg navbar-light bg-light">
                     <div className="container mt-1">
-                        <Link className="navbar-brand" to="/">
+                        <Link className="navbar-brand titulo-principal" to="/">
                             <img src={logo} width="55" height="25" className="me-2" alt="" />
                             BM Technology
                         </Link>
