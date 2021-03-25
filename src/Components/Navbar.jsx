@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react'
 import { Link } from 'react-router-dom'
 import { FaUserAlt, FaShoppingCart } from 'react-icons/fa'
+import BarraCategorias from './BarraCategorias'
 import logo from '../assets/img/logo.png'
 
 const Navbar = () => {
@@ -35,6 +36,7 @@ const Navbar = () => {
                         </div>
                     </div>
                 </nav>
+                <BarraCategorias />
             </header>
         </Fragment>
     )
