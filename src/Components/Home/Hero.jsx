@@ -8,7 +8,7 @@ import { GrPrevious, GrNext } from 'react-icons/gr'
 const Hero = () => {
     return (
         <Fragment>
-            <section className="hero p-4 mb-5">
+            <section className="hero p-3 mb-5">
                 <div className="container">
                     <div id="carousel-hero" className="carousel slide" data-bs-ride="carousel">
                         <div className="carousel-inner carousel-hero">
