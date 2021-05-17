@@ -9,25 +9,25 @@ const BarraCategorias = () => {
         <Fragment>
             <ul className="nav justify-content-center bg-dark p-2">
                 <li className="nav-item">
-                    <Link className="nav-link active text-light" to="/"><AiOutlineCamera /> Cámaras</Link>
+                    <Link className="link-categoria nav-link active text-light" to="/"><AiOutlineCamera /> Cámaras</Link>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link active text-light" to="/"><AiOutlineLaptop /> Laptops</Link>
+                    <Link className="link-categoria nav-link active text-light" to="/"><AiOutlineLaptop /> Laptops</Link>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link active text-light" to="/"><FaRegKeyboard /> Teclados</Link>
+                    <Link className="link-categoria nav-link active text-light" to="/"><FaRegKeyboard /> Teclados</Link>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link active text-light" to="/"><BiMouse /> Ratones</Link>
+                    <Link className="link-categoria nav-link active text-light" to="/"><BiMouse /> Ratones</Link>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link active text-light" to="/"><AiOutlineAudio /> Microfonos</Link>
+                    <Link className="link-categoria nav-link active text-light" to="/"><AiOutlineAudio /> Microfonos</Link>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link active text-light" to="/"><AiOutlineSound /> Audio</Link>
+                    <Link className="link-categoria nav-link active text-light" to="/"><AiOutlineSound /> Audio</Link>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link active text-light" to="/"><AiOutlineSetting /> Ensamblaje</Link>
+                    <Link className="link-categoria nav-link active text-light" to="/"><AiOutlineSetting /> Ensamblaje</Link>
                 </li>
             </ul>
         </Fragment>

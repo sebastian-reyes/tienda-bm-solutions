@@ -22,7 +22,7 @@ const Home = () => {
                             <div data-aos="zoom-in" className="card mb-3 shadow bg-body rounded">
                                 <div className="card-body">
                                     <h5 className="titulo-principal">Envíos a todo el Perú</h5>
-                                    This is some text within a card body.
+                                    Nuestros pedidos serán entregados mediante Olva Courrier.
                                 </div>
                             </div>
                         </div>
@@ -30,7 +30,7 @@ const Home = () => {
                             <div data-aos="zoom-in" className="card mb-3 shadow bg-body rounded">
                                 <div className="card-body">
                                     <h5 className="titulo-principal">Métodos de pago seguros</h5>
-                                    This is some text within a card body.
+                                    Métodos 100% seguros con opción de reclamo.
                                 </div>
                             </div>
                         </div>
@@ -38,7 +38,7 @@ const Home = () => {
                             <div data-aos="zoom-in" className="card mb-3 shadow bg-body rounded">
                                 <div className="card-body">
                                     <h5 className="titulo-principal">Atención al cliente 24h</h5>
-                                    This is some text within a card body.
+                                    Servicio en línea al cliente vigente todo el día.
                                 </div>
                             </div>
                         </div>

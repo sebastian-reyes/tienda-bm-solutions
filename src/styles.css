@@ -185,6 +185,17 @@ ul {
 .footer_bottom a {
     color: rgb(141, 141, 141);
 }
+.link-categoria{
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+.link-categoria:hover,.link-categoria:focus{
+    background-size: 100% 2px;
+}
 
 @media (max-width: 767.98px) {
     .navbar-brand {
